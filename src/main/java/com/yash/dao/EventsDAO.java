@@ -14,9 +14,9 @@ import com.yash.model.*;
 
 public class EventsDAO{
 	
-	private static String jdbcURL = "jdbc:mysql://localhost:3306/trainerschedule";
-	private static String jdbcEventsname = "root";
-	private static String jdbcPassword = "Root";
+	private static String jdbcURL = "jdbc:mysql://localhost:3306/trainer";
+	private static String jdbcEventsname = "abc";
+	private static String jdbcPassword = "Abc";
 	
 	private static final String INSERT_EVENTS_SQL = "INSERT INTO events(event_name,event_date,start_time,end_time,description,user_id) VALUES (?,?,?,?,?,?);";
 	private static final String SELECT_EVENT_BY_ID = "select event_id,event_name,event_date,start_time,end_time,description from events where user_id=?";
