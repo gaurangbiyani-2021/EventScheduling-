@@ -15,9 +15,9 @@ import javax.servlet.http.HttpServlet;
 import com.yash.model.*;
 
 public class UserDAO  extends HttpServlet{
-	private static String jdbcURL = "jdbc:mysql://localhost:3306/trainerschedule";
-	private static String jdbcUsername = "root";
-	private static String jdbcPassword = "Root";
+	private static String jdbcURL = "jdbc:mysql://localhost:3306/trainer";
+	private static String jdbcUsername = "abc";
+	private static String jdbcPassword = "Abc";
 	
 	private static final String INSERT_USERS_SQL = "INSERT INTO users"+" (name,email,password, contact,description,designation) VALUES " + "(?,?,?,?,?,?);";
 	private static final String SELECT_USER_BY_ID = "select id,name,email,contact,description,designation from user where id=?";
