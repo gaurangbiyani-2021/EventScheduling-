@@ -1,0 +1,48 @@
+@charset "ISO-8859-1";
+body{
+	overflow: hidden;
+}
+.box3{
+	
+	position: relative;
+	width: 200px;
+	bottom: 25px;
+	height: 100vh;
+	background: #bae8e8;
+}
+
+.box4{
+	
+	position: relative;
+	left: 200px;
+	width: 1500px;
+	bottom: 103.3vh;
+	height: 100vh;
+	background: #e3f6f5;
+}
+
+#listing{
+	position: relative;
+	left: 400px;
+}
+
+#table1{
+	position: relative;
+	left: 10px;
+}
+
+#dashing{
+	position: relative;
+	left: 45px;
+	top: 100px;
+	font-size: x-large;
+	color: black;
+}
+
+#adding{
+	position: relative;
+	left: 45px;
+	top: 120px;
+	font-size: x-large;
+	color: black;
+}
